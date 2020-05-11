@@ -109,6 +109,9 @@ struct node *concatenates(struct node *last,int num)
     cirdisplay(last);
     return last;
 }
+
+//main program starts here
+
 void main()
 {
     struct node *last=NULL;
