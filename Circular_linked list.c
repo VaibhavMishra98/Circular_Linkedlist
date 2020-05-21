@@ -6,6 +6,8 @@ struct node
     int data;
     struct node *next;
 };
+
+//Functions..
 void cirdisplay(struct node *last)
 {
     struct node *p;
