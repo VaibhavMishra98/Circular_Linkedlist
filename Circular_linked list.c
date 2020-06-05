@@ -8,7 +8,7 @@ struct node
 };
 
 //Functions..
-void cirdisplay(struct node *last)
+void cirdisplay(struct node *last) //Display the list........
 {
     struct node *p;
     if(last==NULL)
