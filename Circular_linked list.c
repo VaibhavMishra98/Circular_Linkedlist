@@ -58,6 +58,7 @@ struct node *ciraddend(struct node *last,int num)
     last=temp;
     return last;
 }
+//Function to delete a number
 struct node *cirdel(struct node *last,int num)
 {
     printf("\nEnter the number to be deleted->");
