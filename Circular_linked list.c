@@ -46,6 +46,7 @@ struct node *ciraddbeg(struct node *last,int num)
         return last;
     }
 }
+//Function for insertion at the end
 struct node *ciraddend(struct node *last,int num)
 {
     printf("\nEnter the number to be inserted->");
