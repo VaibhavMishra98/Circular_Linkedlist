@@ -25,6 +25,7 @@ void cirdisplay(struct node *last) //Display the list........
         while(p!=last->next);
         printf("\n");
 }
+//Insertion at beginning
 struct node *ciraddbeg(struct node *last,int num)
 {
     printf("\nEnter the number to be inserted->");
