@@ -83,6 +83,7 @@ struct node *cirdel(struct node *last,int num)
     free(temp);
     return last;
 }
+//Function to concatenate 2 lists
 struct node *concatenates(struct node *last,int num)
 {
     char x;
